@@ -2,8 +2,16 @@
 import { ask } from "./funtionalities/ask.js";
 import { operate } from "./funtionalities/operations.js";
 import chalk from "chalk";
+//vi
 const decorations = () => {
-    console.log(chalk.black.bgRed("**DECORATIONS UNDER CONSIDERATION**"));
+    console.log(chalk.red(" /$$$$$$$$ /$$$$$$$$ /$$       /$$$$$$$$ /$$   /$$ /$$       /$$$$$$$$ /$$$$$$$$ /$$$$$$$$ /$$$$$$$ "));
+    console.log(chalk.hex("#FFA500")("| $$_____/| $$__/ $$| $$      | $$_____/| $$  | $$| $$      | $$__/ $$|__  $$__/| $$__/ $$| $$__/ $$"));
+    console.log(chalk.yellow("| $$      | $$  | $$| $$      | $$      | $$  | $$| $$      | $$  | $$   | $$   | $$  | $$| $$  \\ $$"));
+    console.log(chalk.green("| $$      | $$$$$$$$| $$      | $$      | $$  | $$| $$      | $$$$$$$$   | $$   | $$  | $$| $$$$$$$ "));
+    console.log(chalk.blue("| $$      | $$__/ $$| $$      | $$      | $$  | $$| $$      | $$__/ $$   | $$   | $$  | $$| $$__/ $$"));
+    console.log(chalk.hex("#4B0082")("| $$      | $$  | $$| $$      | $$      | $$  | $$| $$      | $$  | $$   | $$   | $$  | $$| $$  \\ $$"));
+    console.log(chalk.hex("#8F00FF")("| $$$$$$$$| $$  | $$| $$$$$$$$| $$$$$$$$| $$$$$$$$| $$$$$$$$| $$  | $$   | $$   | $$$$$$$$| $$  | $$"));
+    console.log(chalk.white("|________/|__/  |__/|________/|________/|________/|________/|__/  |__/   |__/   |________/|__/  |__/"));
 };
 const app = async () => {
     decorations();
