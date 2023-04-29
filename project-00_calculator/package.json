@@ -1,0 +1,31 @@
+{
+  "name": "calc-roll-200",
+  "version": "1.0.4",
+  "type": "module",
+  "description": "",
+  "bin": {
+    "calc-roll-200": "bin/index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "start": "nodemon bin/index.js",
+    "publish:patch": "npm version patch && npm publish",
+    "publish:minor": "npm version minor && npm publish",
+    "publish:major": "npm version major && npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.2",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/inquirer": "^9.0.3",
+    "chalk": "^5.2.0",
+    "inquirer": "^9.2.0"
+  }
+}
